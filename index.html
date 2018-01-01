@@ -1,24 +1,148 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>GandalfBuiltAPage</title>
-</head>
-<body>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>GandalfBuildAPage</title>
+		<!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+	</head>
 	<nav>		
-		<a class="navlinks" href="#">About</a>
-		<a class="navlinks" href="#">Before You Start</a>
-		<a class="navlinks" href="#">Build Your Website</a>
-		<a class="navlinks" href="#">Useful Links</a>
+		<a class="navlinks" href="#about">About</a>
+		<a class="navlinks" href="#gettingstarted">Getting Started</a>
+		<a class="navlinks" href="#buildyourpage">Build Your Webpage</a>
+		<a class="navlinks" href="#quiz">Quiz</a>
 	</nav>
 	<header>
-		<h1>Build a Webpage</h1>
-		<a id="slogan" href="#">Start Building</a>
-		<background: url(".../images/magic.jpg");
+		<a class="navlinks" href="#"><img id="logo" src="images/gandalf.jpg" alt="gandalf" title="gandalf"></a>
+		<h1>Gandalf Teachback: Build a Webpage</h1>
+		<h2>Using HTML and CSS</h2>
 	</header>
-	<footer> 
-		<p>Fahmy 2017</p>
-		<p><a href="#">Back to top</a>.</p>
-	</footer>
-</body>
+	<Main>
+		<section id="about">
+				<h3>About</h3>
+				<hr>
+				<p>Regardless of what your profession is, HTML and CSS are great skills to have. And even a little knowledge of these languages can make a big difference in your career. Just like having the ability to speak a foreign language, this sort of skill is helpful in almost all professions.
+				First, let’s review what HTML and CSS are.
+				HTML and CSS are the foundational languages of the web. HTML is a markup language that is used for developing web pages. CSS is a language that defines the presentation of a document written in HTML.</p> 
+		</section>
+		<section id="gettingstarted" class="clearfix">
+					<h3>Getting Started</h3>
+					<hr>
+					<p>Somethings you need before getting started</p>
+					<li>Web Browser - Google Chrome</li> 
+					<p>You can right click on the browser and click on inspect. You can view this webpage's HTML and CSS codes here as well as edit things on it. Just note it is not a permanent change. View video link <a href="#">here</a> to learn more.</p>
+					<li>Text Editor - Sublime Text</li>
+					<p>When coding your text should have no formatting, copy and pasting from office words will still have formatting! Click <a href="#">here</a> to download sublime text.</p> 
+					<li>Web Host - Github</li>
+					<p>GitHub is a development platform to host and review code, manage projects, and build software alongside millions of other developers. Click <a href="#">here</a> to sign up for an account. Click the download button below to get detailed steps to setting up a Github account.
+					<a id="github" href="#">Download</a>
+
+		</section>
+		<section id="buildyourpage">
+			<h3>Build Your Page</h3>
+			<hr>
+			
+			<table>
+  				<tr>
+    			<th><a href="#plan">Plan</a></th>
+    			<th><a href="#structure">Structure</a></th>
+    			<th><a href="#design">Design</a></th>
+    			<th><a href="#responsiveness">Responsiveness</a></th>
+  				</tr>
+  			</table>
+  
+			<div class="wrapper clearfix">
+				<section class="plan">
+					<div id="plan">
+					<h3>Plan</h3>
+					<hr>
+					<p>Before you start building your webpage you will need an idea how your webpage will look like. You can start by sketching on a piece of paper or use a word processing software. Subsequently, you can use websites such as wireframe.cc to create low resolution wireframes.If you want you can go a step further by creating high resolution wireframes or even a prototype.</p>
+					<section class="sketches">	
+					<img id="sketch" src="images/sketch.jpg" alt="hand sketch" title="Example of Sketch">
+					<h4>Sample of a sketch</h4>
+					</section>
+					<section class="sketches">
+					<img id="wireframe" src="images/wireframe.jpg" alt="low res wireframe" title="Example of wireframe">
+					<h4>Sample of a low res wireframe</h4>
+					</section>
+					<section class="sketches">
+					<img id="highreswireframe" src="images/highreswireframe.gif" alt="high res wireframe" title="Example of high res wireframe">
+					<h4>Sample of a high res wireframe</h4>
+					</section>
+					<p>Ultimately, you can choose how detailed you want your sketch to be. The main idea of a sketch is to save time, it is faster to make changes on a sketch rather than on a coded webpage.</p>
+				</section>
+				<section class="structure">
+					<div id="structure">
+					<h3>Structure</h3>
+					<hr>
+					<p>HTML is what gives structure to a website. Your website has a head, title and body. It is written in tags which always opens and closes. Examples of tags can be seen below</p>
+
+					<img id="htmltags" src="images/htmltags.jpg" alt="htmltags" title="Common HTML tags">
+
+					<p>Sublime text has a shortcut for the tags to get you started. Click file > new file. Save file as index.html. Type html and press tab.</p>
+
+					<img id="samplehtml" src="images/samplehtml.jpg" alt="samplehtml" title="Sample HTML">
+
+				</section>
+				<section class="design">
+					<div id="design">
+					<h3>Design</h3>
+					<hr>
+					<p>With HTML it is like writing on a plain notepad. Time to give your webpage life. CSS gives you just that.</p>
+					<table>
+  						<tr>
+    					<th><a href="#font">Font</a></th>
+    					<th><a href="#color">Colour</a></th>
+    					<th><a href="#format">Format</a></th>
+    					</tr>
+    					<tr>
+    					<th><a href="#links">Adding Links</a></th>
+    					<th><a href="#images">Images</a></th>
+    					<th><a href="#layout">Layout</a></th>
+    					</tr>
+  					</table>
+					
+					<ul>Font</ul>
+					<p>There are tons of fonts available. Check out Google fonts <a href="https://fonts.google.com/">here</a>. Just copy and paste the code to your css code.</p>
+					<ul>Color</ul>
+					<p>Similar to fonts, there are tons of colors to choose from. Check out Adobe color <a href="https://fonts.google.com/">here</a>. You can type the colors in 3 different ways:</p>
+						<h5><li>Hexadecimal Colors</li>
+						<p>Hexadecimal color values are also supported in all browsers. A hexadecimal color is specified with: #RRGGBB. RR (red), GG (green) and BB (blue) are hexadecimal integers between 00 and FF specifying the intensity of the color.For example, #0000FF is displayed as blue, because the blue component is set to its highest value (FF) and the others are set to 00.</p>
+						<li>RGB Colors</li>
+						<p>RGB color values are supported in all browsers. An RGB color value is specified with: rgb(red, green, blue). Each parameter (red, green, and blue) defines the intensity of the color as an integer between 0 and 255.For example, rgb(0,0,255) is rendered as blue, because the blue parameter is set to its highest value (255) and the others are set to 0.</p>
+						<li>Color Names</li>
+						<p>CSS supports 140 standard color names. Check out the full list <a href:"https://www.w3schools.com/colors/colors_hex.asp">here</a>.</p></h5>
+
+					<ul>Format</ul>
+					<ul>Adding Links</ul>
+					<ul>Images</ul>
+					<ul>Layout</ul>
+				</section>
+				<section class="responsive">
+					<div id="responsiveness">
+					<h4>Responsiveness</h4>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, Click <a href="https://smartmelayu.wixsite.com/website/single-post/2016/05/03/10-ways-to-engage-with-your-clients-1">here</a> to read further.</p>
+				</section>
+			</div>
+		</section>
+	</Main>
+		<section id="quiz">
+				<h3>Quiz</h3>
+				<hr>
+				<p>To sign up for our next event <a href="mailto:fahmybaashim@gmail.com">email us</a></p>
+				<img
+				 id="upcomings" 
+				 src="images/upcoming.jpg"
+				 alt="upcoming"
+				 title="upcoming">
+		</section>
+			<footer> 
+				<p>Fahmy 2017</p>
+				<p><a href="#">Back to top</a>.</p>
+			</footer>
+	</body>
 </html>

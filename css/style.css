@@ -7,54 +7,46 @@
 body{
 	background: white;
 	font-size: 16px; /*1em = 16px*/
-	text-align: center;
-	position: relative;
 	font-family: 'Libre Baskerville', serif;
 }
 
-#logo {
-	float: center;
-	margin: auto;
-	padding: 0.5em;
-}
-
-.navlinks {
-	color: grey;
-}
-
-nav {
-	height: 2em;
+nav{
+	height: 1em;
 	text-align: center;
 	font-size: 1em;
-	word-spacing: 3em;
+	word-spacing: 0.1em;
 	letter-spacing: 0.3em;
-	font-weight: 600;
 	text-transform: uppercase;
 	background-color: black;
-    border: 1em, black solid;
-    padding: 1.5em;
+	padding:1em;
 }
 
 nav a {
 	color: #ffffff;
-	display: block;
-	width: 12em;
 	float: left;
-	padding: 1em 0;
-	border-radius:15px;
+	padding: 0 1em 0 1em;
+	border-radius:1em;
+	margin-right: 1em;
 }
 
 nav a:hover {
-	background-color: white;
+	background-color: grey;
 }
 
 header {
+	background: url("../images/magic.jpg");
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	height: 30em;
+	padding: 1em;
+}
+
+h1 {
+	font-size: 3em;
+  	padding: 1em 0 0.5em;
+  	color: white;
+  	line-height: 1em;
   	text-align: center;
-  	background: url("../images/magic.jpg");
-  	background-repeat: no-repeat;                      
-  	height: 40em;       
-  	margin:0 auto;
-    padding: 1em;
 }
 
 #slogan:hover {
@@ -69,11 +61,25 @@ header {
 	border: 0.1em solid black;
 	padding: 0.2em;
 }
-
+#logo {
+	display: block;
+	width: 25em;
+	margin:0 auto;
+}
+p {
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 1.5em;
+	margin: 0 auto;
+	line-height: 1.5em;
+	max-width: 50ch;
+	font-family: 'Dosis', sans-serif;
+}
 h1 {
 	font-size: 3em;
   	padding: 1em 0 0.5em;
-  	color: black;
+  	color: white;
   	line-height: 1em;
   	margin: auto;
  }
@@ -89,4 +95,184 @@ h4{
 
 h4{
 	font-size: 0.5em;
+}
+section {
+  	background-image: url("../images/background8.jpg");
+  	background-size: cover;
+  	font-size: 1.2em;
+  	border: 0.2em;
+  	padding: 2em;
+  	line-height: 150%;
+  	color:white;
+  	background-color: #FFE2B8;
+    border: 0.1em black solid;
+    padding: 0.75em;
+}
+
+a {
+	text-decoration: none;
+	color:#322FC6;
+	border-bottom:0.1em solid black;
+	padding-bottom:0.1em;
+
+}
+
+hr {
+	border:none;
+	height:3px;
+	background-color: white;
+	width: 2em;
+	margin: 1em auto;
+}
+
+p {
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 1.5em;
+	margin: 0 auto;
+	line-height: 1.5em;
+	max-width: 50ch;
+	font-family: 'Dosis', sans-serif;
+}
+
+ul {
+	text-align: center;
+    list-style-type: none;
+    font-family: 'Dosis', sans-serif;
+}
+
+li {
+	margin-left: 0.5em;
+	text-align: center;
+}
+
+img {
+	display: block;
+    margin: auto;
+    width: 50%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+#about, #buildyourpage {
+	background-image: url("../images/background1.jpg");
+	background-size: cover;
+}
+
+.wrapper{
+	width: 95%;
+    margin: auto;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#gettingstarted, #quiz {
+	background-image: url("../images/background9.jpg");
+  	background-size: cover;
+}
+
+.sketches{
+	width:25%;
+	margin:1.4%;
+	float:left;
+}
+
+.sketches img{
+	max-width: 100%;
+	width: 100%;
+	display: block;
+	margin:auto;
+}
+
+.sketches > h3{
+	margin:.5em;
+}
+
+#sketch, #wireframe, #highreswireframe{
+	width: 80%;
+	padding: 1em;
+}
+
+#work {
+	border: 0.1em black solid;
+	padding: 1.5em;
+}
+
+#event1, #upcomings {
+	display:block;
+	width:25em;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: black;
+    border: 0.1em black solid;
+    padding: 1.5em;
+}
+
+@media only screen and (max-width: 840px) {
+	body {
+		/*border: 3px solid red;*/
+	}
+
+	h1 { 
+		 }
+	h2 {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	nav {
+		height: 11em;
+	}
+
+	nav a {
+		display:block;
+		text-align: center;
+		margin: 0;
+		min-width: 100%;
+		height: 1em;
+	}
+
+	header {
+		height: 30em;
+	}
+
+	#event1, #upcomings {
+		width:100%;
+	}
+
+	.lifestage{
+		float: none;
+		width: 85%;
+		margin:1.4%;
+	}
+	.lifestage img{
+		display: block;
+		margin:auto;
+
+	section{
+		background-size: 90%;
+		background-repeat: cover;
+	}
 }
