@@ -165,12 +165,6 @@ td, th {
     padding: 8px;
 }
 
-#inspect1, #inspect2, #inspect3, #inspect4 {
-	width: 25%;
-	display: block;
-	float: left;
-}
-
 #about, #buildyourpage {
 	background-image: url("../images/background1.jpg");
 	background-size: cover;
