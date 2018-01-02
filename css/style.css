@@ -24,7 +24,7 @@ nav{
 nav a {
 	color: #ffffff;
 	float: left;
-	padding: 0 1em 0 1em;
+	padding: 0.5em;
 	border-radius:1em;
 	margin-right: 1em;
 }
@@ -37,7 +37,7 @@ header {
 	background: url("../images/magic.jpg");
 	background-repeat: no-repeat;
 	margin: 0 auto;
-	height: 30em;
+	height: 50em;
 	padding: 1em;
 }
 
@@ -49,18 +49,6 @@ h1 {
   	text-align: center;
 }
 
-#slogan:hover {
-	background-color: white;
-}
-
-#slogan {
-	text-align: center;
-	font-size: 1.5em;
-	font-style:italic;
-	color: purple;
-	border: 0.1em solid black;
-	padding: 0.2em;
-}
 #logo {
 	display: block;
 	width: 25em;
@@ -91,6 +79,7 @@ h4 {
 	text-transform: uppercase;
 	font-family: 'Libre Baskerville', sans-serif;
 	text-align: center;
+	padding: 0.5em;
 }
 
 h2 {
@@ -114,7 +103,6 @@ a {
 	color:#322FC6;
 	border-bottom:0.1em solid black;
 	padding-bottom:0.1em;
-
 }
 
 hr {
@@ -134,17 +122,6 @@ p {
 	line-height: 1.5em;
 	max-width: 50ch;
 	font-family: 'Dosis', sans-serif;
-}
-
-ul {
-	text-align: center;
-    list-style-type: none;
-    font-family: 'Dosis', sans-serif;
-}
-
-li {
-	margin-left: 0.5em;
-	text-align: center;
 }
 
 img {
@@ -183,6 +160,7 @@ a:hover {
 a:active {
     color: blue;
 }
+
 #about, #buildyourpage {
 	background-image: url("../images/background1.jpg");
 	background-size: cover;
@@ -205,6 +183,10 @@ a:active {
 #gettingstarted, #quiz {
 	background-image: url("../images/background9.jpg");
   	background-size: cover;
+}
+
+#chrome, #sublime, #github {
+	width: 20%;
 }
 
 .sketches{
