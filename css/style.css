@@ -164,7 +164,25 @@ td, th {
     text-align: left;
     padding: 8px;
 }
+/* unvisited link */
+a:link {
+    color: green;
+}
 
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
 #about, #buildyourpage {
 	background-image: url("../images/background1.jpg");
 	background-size: cover;
