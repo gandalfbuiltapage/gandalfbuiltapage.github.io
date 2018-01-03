@@ -74,7 +74,8 @@ h1 {
 
 h2,
 h3,
-h4 {
+h4,
+h5 {
 	color: white;
 	text-transform: uppercase;
 	font-family: 'Libre Baskerville', sans-serif;
@@ -185,8 +186,13 @@ a:active {
   	background-size: cover;
 }
 
-#chrome, #sublime, #github {
-	width: 20%;
+.gettingstarted {
+	width:33.33%;
+	padding:2em 0 0;
+	float: left;
+	position:relative;
+	overflow: hidden;
+	/*background-color: orange;*/
 }
 
 .sketches{
@@ -200,6 +206,7 @@ a:active {
 	width: 100%;
 	display: block;
 	margin:auto;
+	height: 15em;
 }
 
 .sketches > h3{
