@@ -274,22 +274,4 @@ footer {
 	header {
 		height: 30em;
 	}
-
-	#event1, #upcomings {
-		width:100%;
-	}
-
-	.lifestage{
-		float: none;
-		width: 85%;
-		margin:1.4%;
-	}
-	.lifestage img{
-		display: block;
-		margin:auto;
-
-	section{
-		background-size: 90%;
-		background-repeat: cover;
-	}
 }
