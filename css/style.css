@@ -125,6 +125,14 @@ p {
 	font-family: 'Dosis', sans-serif;
 }
 
+li {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	}
+
 img {
 	display: block;
     margin: auto;
@@ -181,7 +189,7 @@ a:active {
 	height: 0;
 }
 
-#gettingstarted, #quiz {
+#gettingstarted, #survey {
 	background-image: url("../images/background9.jpg");
   	background-size: cover;
 }
@@ -227,6 +235,10 @@ a:active {
 	display:block;
 	width:25em;
 	margin: 0 auto;
+}
+
+.floatexample img, .clearexample img {
+	width:20%;
 }
 
 footer {

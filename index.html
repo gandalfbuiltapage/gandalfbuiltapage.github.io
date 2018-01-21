@@ -13,7 +13,7 @@
 		<a class="navlinks" href="#about">About</a>
 		<a class="navlinks" href="#gettingstarted">Getting Started</a>
 		<a class="navlinks" href="#buildyourpage">Build Your Webpage</a>
-		<a class="navlinks" href="#quiz">Quiz</a>
+		<a class="navlinks" href="#quiz">Survey</a>
 	</nav>
 	<header>
 		<a class="navlinks" href="#"><img id="logo" src="images/gandalf.jpg" alt="gandalf" title="gandalf"></a>
@@ -122,18 +122,63 @@
 							<p>Adding links is a very useful tool. You can link to various of the page or also link to external websites. Use the code below to link.</p> 
 							<img id="addinglinks" src="images/addinglink.jpg" alt="addinglink" title="Adding links">
 							<h4>Images</h4>
-							<p>Work in progress</p>
+							<p>When you’d like to add images to your site, you should use the "img" tag with the “src” attribute. “src” stands for “Source” and works just like the "a" tag’s “href” attribute. It tells the image tag where to find the image you’d want to include on your page. Example:</p>
+							<img src="images/addingimg.jpg" alt="addingimg" title="Adding Image Example">
+
+							<h5>RELATIVE VS. ABSOLUTE ADDRESSING</h5>
+
+							<p>Relative addressing basically tells your browser: “Look in our project folder for the file specified. Or, if a folder is specified, look within that folder for the file specified.”
+							On the other hand, when we link to a source outside of our project, it is referred to as an absolute address.</p>
+
+							<p>Example, Relative Address:</p>
+							<img src="images/relativeexample.jpg" alt="relativeexample" title="Relative Example">
+
+							<p>Example, Absolute Address:</p>
+							<img src="images/absoluteexample.jpg" alt="absoluteexample" title="Absolute Example">
+
 							<h4>Layout</h4>
-							<p>Work in progress</p>
+							<h5>The CSS Box Model</h5>
+							<p>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.
+							The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:</p>
+							<img src="images/boxmodel.jpg" alt="boxmodel" title="Box Model Example">
+							<p>Explanation of the different parts:</p>
+							<ul>
+							<li>Content - The content of the box, where text and images appear</li>
+							<li>Padding - Clears an area around the content. The padding is transparent</li>
+							<li>Border - A border that goes around the padding and content</li>
+							<li>Margin - Clears an area outside the border. The margin is 
+							transparent</li>
+							</ul>
+
+							<p>Example:</p>
+							<img src="images/boxexample.jpg" alt="boxexample" title="Box Example">
+
+							<h5>Column Layout</h5>
+							<p>Column layout refers to the design of pages with multiple different block sections at the same vertical height in the page. Columns are created by wrapping a block of content with a div tag, and modifying the padding, margin, and border dimensions to create evenly (or unevenly) spaced columns.</p>
+
+							<h5>Floats And Clears</h5>
+							<p>By default block elements in out HTML piles (or stacks)
+							on top of each other.
+							Floating lets us change this behavior of the elements on
+							the page. The css property is called “float” and common
+							values are “left”, “right”, and “none” (none is default).
+							Note: Elements are floated horizontally, not vertically.</p>
+
+							<p>Example:</p>
+							<img src="images/floatexample.jpg" alt="floatexample" title="Float Example">
+
+							<p>Clearing is used when we want to “turn off” floatingessentially
+							preventing elements from flowing around
+							the floating element.</p>
+
+							<p>Example:</p>
+							<img src="images/clearexample.jpg" alt="clearexample" title="Clear Example">
 					</div>
 		</section>
-		<section id="quiz">
-				<h2>Quiz</h2>
+		<section id="survey">
+				<h2>Survey</h2>
 				<hr>
-				<p>Work in progress</p>
-				<h3>Survey</h3>
-				<hr>
-				<p>Pls assist to fill up survey to give feedback on webpage. Click <a href="https://tnolearning.typeform.com/to/PTz5gQ" target="_blank">here</a>.</p>
+				<p>Please fill up survey to give feedback on webpage. Click <a href="https://tnolearning.typeform.com/to/PTz5gQ" target="_blank">here</a>.</p>
 		</section>
 	</Main>
 			<footer> 
